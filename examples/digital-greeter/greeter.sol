@@ -1,3 +1,6 @@
+/*
+* Source: https://www.ethereum.org/greeter
+*/
 contract mortal {
     /* Define variable owner of the type address */
     address owner;
