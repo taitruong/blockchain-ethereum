@@ -26,7 +26,7 @@ vi CustomGenesis.json
 
 Now initialize block chain for the network with a datadir for databases and keystore
 ```
-geth --identity custom-node-name init ./CustomGenesis.json --datadir ~/.ethereum
+geth --identity myPrivateNode init ./CustomGenesis.json --datadir ~/.ethereum
 ```
 
 Last but not least create private/test network
