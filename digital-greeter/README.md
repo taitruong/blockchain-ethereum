@@ -113,6 +113,8 @@ var greeter = greeterContract.new(_greeting,{from: web3.eth.accounts[0],data:'0x
 ```
 # now unlock account, otherwise you can't deploy
 personal.unlockAccount(web3.eth.accounts[0])
+# for some reason you have to start mining
+miner.start()
 loadScript("greeter.js")
 # run
 greeter.greet()
